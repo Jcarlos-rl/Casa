@@ -9,6 +9,10 @@ $(document).ready(function(){
 });
 
 $(document).ready(function(){
+    $('.sidenav').sidenav();
+});
+
+$(document).ready(function(){
     var flag=false;
     var scroll;
     $(window).scroll(function(){

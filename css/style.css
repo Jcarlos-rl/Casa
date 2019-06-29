@@ -102,22 +102,6 @@ hr{
     height: 500px;
 }
 .gates{
-    background-image: url(../images/gates.png);
-    background-size: contain;
-    height: 148px;
-}
-.gates:hover{
-    background-image: url(../images/gates.jpg);
-}
-.hellerman{
-    background-image: url(../images/hellerman.png);
-    background-size: contain;
-    height: 150px;
-}
-.hellerman:hover{
-    background-image: url(../images/hellerman.jpg);
-}
-.collapsible-body{
     background-image: url(../images/gates-collapse.png);
     background-size: cover;
     padding: 5px;
