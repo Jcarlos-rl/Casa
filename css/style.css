@@ -82,39 +82,6 @@ nav{
 .spacing100{
     height: 100px;
 }
-
-.servicios-herramientas{
-    width: 90%;
-    height: 300px;
-    padding-top: 12px;
-    background-image: url(../images/Architecture.jpg);
-    background-size: cover;
-}
-
-.subservicio{
-    display: none;
-}
-
-.servicios-herramientas:hover{
-    background-color: rgb(20, 117, 197);
-    background-image: none;
-}
-
-.servicios-herramientas:hover .subservicio{
-    display: block;
-    width: 90%;
-    height: 95%;
-    margin: auto;
-    border: 1px solid rgba(255, 255, 255, 0.5);
-}
-
-.servicios-marcas{
-    width: 90%;
-    height: 300px;
-    background-image: url(../images/Architecture.jpg);
-    background-size: cover;
-}
-
 hr{
     border: solid 1px rgb(20, 117, 197);
 }
@@ -133,4 +100,25 @@ hr{
     background-image: url(../images/about-6-960x646.jpg);
     background-size: cover;
     height: 500px;
+}
+.gates{
+    background-image: url(../images/gates.png);
+    background-size: contain;
+    height: 148px;
+}
+.gates:hover{
+    background-image: url(../images/gates.jpg);
+}
+.hellerman{
+    background-image: url(../images/hellerman.png);
+    background-size: contain;
+    height: 150px;
+}
+.hellerman:hover{
+    background-image: url(../images/hellerman.jpg);
+}
+.collapsible-body{
+    background-image: url(../images/gates-collapse.png);
+    background-size: cover;
+    padding: 5px;
 }
